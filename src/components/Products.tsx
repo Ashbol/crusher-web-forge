@@ -32,7 +32,7 @@ const Products = () => {
   ];
 
   return (
-    <section id="products" className="py-20 bg-gray-50">
+    <section id="products" className="py-20 bg-blue-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Products</h2>
@@ -80,14 +80,14 @@ const Products = () => {
                   <ul className="text-sm text-muted-foreground space-y-1">
                     {category.features.map((feature, index) => (
                       <li key={index} className="flex items-center">
-                        <div className="w-1.5 h-1.5 bg-orange-500 rounded-full mr-2" />
+                        <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2" />
                         {feature}
                       </li>
                     ))}
                   </ul>
                 </div>
                 
-                <Button className="w-full bg-orange-600 hover:bg-orange-700">
+                <Button className="w-full bg-blue-600 hover:bg-blue-700">
                   Get Quote for {category.title}
                 </Button>
               </CardContent>

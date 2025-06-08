@@ -45,7 +45,7 @@ const Gallery = () => {
   ];
 
   return (
-    <section id="gallery" className="py-20 bg-gray-50">
+    <section id="gallery" className="py-20 bg-slate-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Gallery</h2>
@@ -68,7 +68,7 @@ const Gallery = () => {
               />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all duration-300" />
               <div className="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <div className="bg-orange-600 px-2 py-1 rounded text-sm font-medium mb-1">
+                <div className="bg-blue-600 px-2 py-1 rounded text-sm font-medium mb-1">
                   {image.category}
                 </div>
                 <h3 className="font-semibold">{image.alt}</h3>

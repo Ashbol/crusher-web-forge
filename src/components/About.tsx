@@ -25,7 +25,7 @@ const About = () => {
           {/* Content */}
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              About <span className="text-orange-600">Crusher Business</span>
+              About <span className="text-blue-600">Crusher Business</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-6">
               Established in 2009, we are Bangalore's leading supplier of premium construction materials. 
@@ -42,7 +42,7 @@ const About = () => {
               <h3 className="text-xl font-semibold">Our Certifications & Approvals</h3>
               <div className="flex flex-wrap gap-2">
                 {certifications.map((cert, index) => (
-                  <Badge key={index} variant="outline" className="border-orange-200 text-orange-700">
+                  <Badge key={index} variant="outline" className="border-blue-200 text-blue-700">
                     {cert}
                   </Badge>
                 ))}
@@ -57,7 +57,7 @@ const About = () => {
               alt="Crusher Plant Operations"
               className="rounded-lg shadow-xl"
             />
-            <div className="absolute -bottom-6 -left-6 bg-orange-600 text-white p-6 rounded-lg shadow-lg">
+            <div className="absolute -bottom-6 -left-6 bg-blue-600 text-white p-6 rounded-lg shadow-lg">
               <div className="text-3xl font-bold">15+</div>
               <div className="text-sm">Years Serving Bangalore</div>
             </div>
@@ -69,10 +69,10 @@ const About = () => {
           {stats.map((stat, index) => (
             <Card key={index} className="text-center p-6 hover:shadow-lg transition-shadow">
               <CardContent className="space-y-4">
-                <div className="mx-auto w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center">
-                  <stat.icon className="h-6 w-6 text-orange-600" />
+                <div className="mx-auto w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+                  <stat.icon className="h-6 w-6 text-blue-600" />
                 </div>
-                <div className="text-3xl font-bold text-orange-600">{stat.value}</div>
+                <div className="text-3xl font-bold text-blue-600">{stat.value}</div>
                 <div className="text-sm text-muted-foreground">{stat.label}</div>
               </CardContent>
             </Card>

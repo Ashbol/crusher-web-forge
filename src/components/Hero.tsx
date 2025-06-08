@@ -26,7 +26,7 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Premium <span className="text-orange-500">Construction</span> Materials
+            Premium <span className="text-blue-400">Construction</span> Materials
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-200">
             Supplying high-quality sand, stones, and bricks across Bangalore. 
@@ -34,10 +34,10 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button size="lg" className="bg-orange-600 hover:bg-orange-700 text-lg px-8 py-6">
+            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-6">
               Request Quote <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-black text-lg px-8 py-6">
+            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-800 text-lg px-8 py-6">
               View Products
             </Button>
           </div>
@@ -45,7 +45,7 @@ const Hero = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-4xl mx-auto">
             {features.map((feature, index) => (
               <div key={index} className="flex items-center justify-center space-x-2 bg-white/10 backdrop-blur-sm rounded-lg p-4">
-                <CheckCircle className="h-5 w-5 text-green-400 flex-shrink-0" />
+                <CheckCircle className="h-5 w-5 text-blue-400 flex-shrink-0" />
                 <span className="text-sm font-medium">{feature}</span>
               </div>
             ))}

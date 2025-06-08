@@ -39,7 +39,7 @@ const Header = () => {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-3">
-            <div className="h-10 w-10 bg-gradient-to-br from-orange-500 to-amber-600 rounded-lg flex items-center justify-center">
+            <div className="h-10 w-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-xl">CB</span>
             </div>
             <div>
@@ -54,12 +54,12 @@ const Header = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-foreground hover:text-orange-600 transition-colors font-medium"
+                className="text-foreground hover:text-blue-600 transition-colors font-medium"
               >
                 {item.name}
               </a>
             ))}
-            <Button className="bg-orange-600 hover:bg-orange-700">
+            <Button className="bg-blue-600 hover:bg-blue-700">
               Get Quote
             </Button>
           </div>
@@ -81,13 +81,13 @@ const Header = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-foreground hover:text-orange-600 transition-colors font-medium"
+                  className="text-foreground hover:text-blue-600 transition-colors font-medium"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}
                 </a>
               ))}
-              <Button className="bg-orange-600 hover:bg-orange-700 w-fit">
+              <Button className="bg-blue-600 hover:bg-blue-700 w-fit">
                 Get Quote
               </Button>
             </div>
